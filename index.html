@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="vi" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+  <title>ThanhDieu - Home</title>
+  <meta name="description" content="Hi my name is ThanhDieu / A freelance / web developer / vexer">
+  <meta name="theme-color" content="#0a0a12">
+  <link rel="icon" href="./assets/img/avatar.png">
+  <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+  <!-- ========== HERO / INTRO (100% match archived look) ========== -->
+  <section id="hero" class="hero">
+    <canvas id="geoCanvas"></canvas>
+    <div class="hero-content">
+      <div class="avatar-wrap">
+        <img src="./assets/img/avatar.png" alt="Avatar" class="avatar" id="mainAvatar">
+        <div class="avatar-ring"></div>
+      </div>
+      <h1 class="hero-name">ThanhDieu</h1>
+      <p class="hero-quote">Phải chăng em là một ảo thuật gia, bởi mỗi khi anh nhìn em là mọi thứ xung quanh đều biến mất.</p>
+      <div class="scroll-hint" onclick="scrollToMain()">
+        <span class="arrow">↓</span>
+      </div>
+    </div>
+    <div class="clock" id="clock">00:00:00</div>
+  </section>
+
+  <!-- ========== MAIN PROFILE ========== -->
+  <main id="main" class="main">
+    <header class="topbar">
+      <div class="logo">ThanhDieu</div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#social">Social</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section id="about" class="section about">
+      <div class="avatar-block">
+        <img src="./assets/img/avatar.png" alt="Avatar" class="profile-avatar">
+        <h2>Vương Thanh Diệu</h2>
+        <p class="tagline">Developer / Designer / Vexer</p>
+        <p class="location">Vietnam / Ho Chi Minh City</p>
+      </div>
+      <div class="bio">
+        <h3>Bio</h3>
+        <p>Hello, my name is ThanhDieu. I am a member of WusTeam and a freelance programmer, with a passion for coding driven by pure interest.</p>
+        <p>My main interest lies in back-end. I enjoy overthinking.</p>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills">
+      <h3>Skills</h3>
+      <div class="skill-grid">
+        <div class="skill-card">
+          <h4>Web</h4>
+          <div class="tags">
+            <span>Vue.js</span><span>Nuxt.js</span><span>Node.js</span><span>React.js</span>
+            <span>TypeScript</span><span>JavaScript</span><span>CSS</span><span>HTML</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h4>Programming</h4>
+          <div class="tags">
+            <span>Python</span><span>C</span><span>C++</span><span>C#</span>
+            <span>MySQL</span><span>PostgreSQL</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h4>Tools</h4>
+          <div class="tags">
+            <span>VSCode</span><span>Git</span><span>Linux</span><span>Docker</span><span>Nginx</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h4>Design</h4>
+          <div class="tags">
+            <span>Figma</span><span>Photoshop</span><span>Illustrator</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="social" class="section social">
+      <h3>Social Network</h3>
+      <div class="social-grid">
+        <a class="social-btn facebook" href="https://facebook.com" target="_blank" rel="noopener">Facebook</a>
+        <a class="social-btn youtube" href="https://youtube.com" target="_blank" rel="noopener">Youtube</a>
+        <a class="social-btn discord" href="https://discord.com" target="_blank" rel="noopener">Discord</a>
+        <a class="social-btn instagram" href="https://instagram.com" target="_blank" rel="noopener">Instagram</a>
+        <a class="social-btn github" href="https://github.com/ontopcommunity" target="_blank" rel="noopener">Github</a>
+        <a class="social-btn telegram" href="https://t.me" target="_blank" rel="noopener">Telegram</a>
+        <a class="social-btn tiktok" href="https://tiktok.com" target="_blank" rel="noopener">TikTok</a>
+        <a class="social-btn twitter" href="https://x.com" target="_blank" rel="noopener">Twitter / X</a>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <h3>Contact</h3>
+      <div class="contact-cards">
+        <div class="contact-card">
+          <strong>Telegram</strong>
+          <span>@ThanhDieuChannel</span>
+        </div>
+        <div class="contact-card">
+          <strong>Email</strong>
+          <span>contact@thanhdieu.com</span>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>© 2025 ThanhDieu · Offline capable · Built for speed</p>
+    </footer>
+  </main>
+
+  <script src="./assets/js/geo.js"></script>
+  <script src="./assets/js/app.js"></script>
+</body>
+</html>
